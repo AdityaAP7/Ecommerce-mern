@@ -1,4 +1,4 @@
-rrtqqqqqqqqqqimport { configureStore, createReducer } from '@reduxjs/toolkit';
+rrrtqqqqqqqqqqimport { configureStore, createReducer } from '@reduxjs/toolkit';
 import productReducer from '../features/product/productSlice';
 import authReducer from '../features/auth/authSlice';
 import cartReducer from '../features/cart/cartSlice';
