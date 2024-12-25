@@ -12,7 +12,6 @@ import { selectUserInfo } from '../../user/userSlice';
 2
 2
 2
-2
 
 function ProtectedAdmin({ children }) {
   const user = useSelector(selectLoggedInUser);
