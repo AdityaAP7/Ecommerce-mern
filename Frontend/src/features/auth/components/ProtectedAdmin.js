@@ -2,6 +2,31 @@ import { useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 import { selectLoggedInUser } from '../authSlice';
 import { selectUserInfo } from '../../user/userSlice';
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+22
+
+2
+2
+22
+2
+2
+2
+2
 
 function ProtectedAdmin({ children }) {
   const user = useSelector(selectLoggedInUser);
