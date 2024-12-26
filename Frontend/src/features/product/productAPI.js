@@ -10,7 +10,7 @@ export function fetchProductById(id) {
   1
   1
   1
-  1
+
   1
   1
 
