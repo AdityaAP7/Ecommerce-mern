@@ -7,7 +7,6 @@ export function fetchProductById(id) {
   });
 
   1
-  1
   
 }
 
