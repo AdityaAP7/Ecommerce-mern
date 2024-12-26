@@ -6,6 +6,12 @@ export function fetchProductById(id) {
     resolve({ data });
   });
 
+  q
+  q
+  q
+  q
+  q
+  
   1
   
 }
