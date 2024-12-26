@@ -11,7 +11,6 @@ export function fetchProductById(id) {
   q
   q
   q
-  q
   
 }
 
