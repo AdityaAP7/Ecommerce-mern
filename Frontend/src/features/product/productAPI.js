@@ -5,6 +5,41 @@ export function fetchProductById(id) {
     const data = await response.json();
     resolve({ data });
   });
+
+  1
+  1
+  1
+  1
+  1
+
+  1
+  1
+  1
+
+  1
+  1
+  1
+  1
+  1
+  1
+
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  
 }
 
 export function createProduct(product) {
