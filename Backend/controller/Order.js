@@ -1,4 +1,4 @@
-qqqqqconst { Order } = require("../model/Order");
+qqqqqqconst { Order } = require("../model/Order");
 const { Product } = require("../model/Product");
 const { User } = require("../model/User");
 const { sendMail, invoiceTemplate } = require("../services/common");
