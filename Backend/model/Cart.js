@@ -1,5 +1,4 @@
-1const mongoose = require('mongoose');
-const {Schema} = mongoose;
+1const {Schema} = mongoose;
 
 1
 const cartSchema = new Schema({
