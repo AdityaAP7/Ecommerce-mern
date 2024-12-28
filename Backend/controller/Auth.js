@@ -1,4 +1,4 @@
-11111111111111111111111const { User } = require('../model/User');
+111111111111111111111111const { User } = require('../model/User');
 const crypto = require('crypto');
 const { sanitizeUser } = require('../services/common');
 const jwt = require('jsonwebtoken');
