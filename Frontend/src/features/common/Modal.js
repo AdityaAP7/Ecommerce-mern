@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useRef, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
-
+1
 export default function Modal({title,message,dangerOption,cancelOption, dangerAction, cancelAction, showModal }) {
   const [open, setOpen] = useState(false);
 
