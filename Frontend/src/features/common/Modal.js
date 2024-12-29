@@ -11,6 +11,15 @@ export default function Modal({title,message,dangerOption,cancelOption, dangerAc
     setOpen(false)
     dangerAction()
   }
+  //////////////
+    const [open, setOpen] = useState(false);
+
+  const cancelButtonRef = useRef(null);
+
+  const handleDanger = ()=>{
+    setOpen(false)
+    dangerAction()
+  }
 
   const handleCancel = ()=>{
     setOpen(false)
