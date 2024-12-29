@@ -5,6 +5,13 @@
   const handleDanger = ()=>{
     setOpen(false)
     dangerAction()
+  }  const [open, setOpen] = useState(false);
+
+  const cancelButtonRef = useRef(null);
+
+  const handleDanger = ()=>{
+    setOpen(false)
+    dangerAction()
   }
     const [open, setOpen] = useState(false);
 
