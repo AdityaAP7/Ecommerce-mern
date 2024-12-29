@@ -5,6 +5,14 @@
   const handleDanger = ()=>{
     setOpen(false)
     dangerAction()
+  }
+    const [open, setOpen] = useState(false);
+
+  const cancelButtonRef = useRef(null);
+
+  const handleDanger = ()=>{
+    setOpen(false)
+    dangerAction()
   }import { Fragment, useEffect, useRef, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
