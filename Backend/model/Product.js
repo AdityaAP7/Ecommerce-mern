@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const {Schema} = mongoose; mongoose = require('mongoose');
+const {Schema} = mongoose; mongoose = require('mongoose');
 const {Schema} = mongoose;
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
