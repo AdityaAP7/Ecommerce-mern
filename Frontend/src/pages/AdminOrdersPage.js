@@ -1,4 +1,4 @@
-admin/components/AdminOrders";
+qadmin/components/AdminOrders";
 import NavBar admin/components/AdminOrders";
 import NavBar from "../features/navbar/Navbar";
  "../features/navbar/Navbar";
