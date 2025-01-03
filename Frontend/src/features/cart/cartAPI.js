@@ -1,4 +1,4 @@
-11export function addToCart(item) {
+111export function addToCart(item) {
   return new Promise(async (resolve) => {
     const response = await fetch('/cart', {
       method: 'POST',
