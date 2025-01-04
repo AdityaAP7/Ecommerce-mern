@@ -42,3 +42,5 @@ export const deleteItemFromCartAsync = createAsyncThunk(
     return response.data;
   }
 );
+export const resetCartAsync = createAsyncThunk(
+  'cart/resetCart',
