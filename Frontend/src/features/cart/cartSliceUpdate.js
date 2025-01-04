@@ -5,3 +5,5 @@ const initialState = {
   items: [],
   cartLoaded: false
 };
+export const addToCartAsync = createAsyncThunk(
+  'cart/addToCart',
