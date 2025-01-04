@@ -28,3 +28,8 @@ export const updateCartAsync = createAsyncThunk(
 
     async (update) => {
     const response = await updateCart(update);
+
+      // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
