@@ -50,3 +50,5 @@ export const resetCartAsync = createAsyncThunk(
     return response.data;
   }
 );
+export const cartSlice = createSlice({
+  name: 'cart',
