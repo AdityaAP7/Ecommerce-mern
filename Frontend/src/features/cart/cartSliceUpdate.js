@@ -25,3 +25,6 @@ export const fetchItemsByUserIdAsync = createAsyncThunk(
 );
 export const updateCartAsync = createAsyncThunk(
   'cart/updateCart',
+
+    async (update) => {
+    const response = await updateCart(update);
