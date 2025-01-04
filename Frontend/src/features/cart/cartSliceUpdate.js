@@ -23,3 +23,5 @@ export const fetchItemsByUserIdAsync = createAsyncThunk(
     return response.data;
   }
 );
+export const updateCartAsync = createAsyncThunk(
+  'cart/updateCart',
