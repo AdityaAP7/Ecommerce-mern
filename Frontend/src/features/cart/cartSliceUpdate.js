@@ -70,3 +70,5 @@ export const cartSlice = createSlice({
           .addCase(fetchItemsByUserIdAsync.pending, (state) => {
         state.status = 'loading';
       })
+  .addCase(fetchItemsByUserIdAsync.fulfilled, (state, action) => {
+        state.status = 'idle';
