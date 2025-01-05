@@ -94,4 +94,4 @@ export const cartSlice = createSlice({
         state.status = 'loading';
       })  .addCase(deleteItemFromCartAsync.fulfilled, (state, action) => {
       state.status = 'idle';
-        const index =  state.items.findIndex(item=>item.id===action.payload.id)
+        const index =  state.items.findIndex(item=>item.id===action.payload.id) state.items.splice(index,1);
