@@ -81,3 +81,4 @@ export const cartSlice = createSlice({
       })
       
       .addCase(updateCartAsync.pending, (state) => {
+           state.status = 'loading';
