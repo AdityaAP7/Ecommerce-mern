@@ -98,3 +98,9 @@ export const cartSlice = createSlice({
       .addCase(resetCartAsync.pending, (state) => {
         state.status = 'loading';
       })
+      .addCase(resetCartAsync.fulfilled, (state, action) => {
+        state.status = 'idle';
+        state.items = [];
+      })
+  },
+});
