@@ -1,6 +1,4 @@
-1111111111const {Schema} = mongoose;
-1
-11
+const {Schema} = mongoose;
 const cartSchema = new Schema({
     quantity: { type : Number, required: true},
     product: { type: Schema.Types.ObjectId, ref: 'Product', required: true},
